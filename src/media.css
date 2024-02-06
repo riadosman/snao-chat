@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+  body{
+    font-size: 22px;
+  }
+  .hero{
+    flex-direction: column-reverse;
+      height: 100%;
+      margin: 40px auto;
+      gap: 50px;
+  }
+  .right-hero img{
+    width: 270px;
+  }
+  .left-hero{
+    text-align: center;
+  }
+  .cards{
+    flex-wrap: wrap;
+  }
+  .nav-item{
+    width: 200px;
+  }
+  .show{
+    width: 100%;
+  }
+  .contact .right-contact img {
+    width: 300px;
+    height: 300px;
+  }
+  .contact .left-contact form{
+    width: 95%;
+  }
+  .cards .card{
+    height: 550px;
+    margin: 10px auto;
+  }
+  .info{
+    flex-direction: column;
+  }
+  .contact{
+    flex-direction: column;
+  }
+  .info div h3 {
+    margin: 20px 0;
+    width: initial;
+    font-size: 1.2rem;
+    padding: 22px;
+    text-align: center;
+  }
+  form{
+    margin: 10px;
+    padding: 25px;
+    font-size: 15px;
+  }
+}

@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar{
+  background-color: #FCFC02;
+}
+:root{
+  --main-color:#FCFC02;
+  --bg-color:#f0f0f0;
+}
+/* whatsapp icon */
+/* WhatsAppIcon.css */
+.whatsapp-icon {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Adjust the z-index as needed to ensure the icon appears above other elements */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.whatsapp-icon img {
+  width: 50px; /* Adjust the width and height as needed */
+  height: 50px;
+  border-radius: 50%; /* Make it circular, adjust as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for a subtle effect */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* contact page */
+.contact{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.contact .right-contact img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact .left-contact form{
+  width: 500px;
+  border-radius: 50px;
 }

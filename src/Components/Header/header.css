@@ -1,0 +1,18 @@
+.navbar{
+  background-color: var(--main-color);
+  color: white;
+}
+.navbar-nav{
+  margin-left: 250px;
+}
+.navbar-brand img{
+  height: 40px;
+}
+.nav-item{
+  font-weight: 700;
+  margin: 0 10px;
+  list-style-type: none;
+}
+.nav-item a:hover{
+  color: #fff;
+}

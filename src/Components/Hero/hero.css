@@ -1,0 +1,15 @@
+.hero{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 2;
+}
+.right-hero img{
+  width: 500px;
+  border-radius: 50px;
+}
+.left-hero button{
+  width: 200px;
+}

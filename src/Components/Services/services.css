@@ -1,0 +1,21 @@
+.title{
+  font-size: 4rem;
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.cards .card{
+  height: 520px;
+  width: 300px;
+  cursor: pointer;
+
+  border: 1px solid #ccc;
+  transition: transform 0.4s ease-in-out;
+}
+.cards .card:hover{
+  transform: scale(1.01); /* Example: Enlarge the card on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
